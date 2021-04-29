@@ -1,0 +1,6 @@
+<div class="cardList">
+    <div *ngFor="let poc of detalle_list">
+        <app-pokemon-card [dataPockemon]="poc" (click)="onSearch(poc.url)"></app-pokemon-card>
+    </div>
+</div>
+  
